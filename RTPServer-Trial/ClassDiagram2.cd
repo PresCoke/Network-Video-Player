@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RTPServer_Trial.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTPServer_Trial.RTP_Protocol">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAECACAQAAAgACAABAAASAASQCAAACEEQqgAAIAA=</HashCode>
+      <FileName>ServerController\RTP_Protocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTPServer_Trial.RTPpacket">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEgAAGAAAAAAAEABEAACAAAgAAAAAAAAgQEAAAACAAA=</HashCode>
+      <FileName>ServerModel\RTPpacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTPServer_Trial.RTPServerMainView" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="RTPServer_Trial.RTPServerMainView.changeServerStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RTPServerMainView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="RTPServer_Trial.RTPServerMainView.changeClientRequest" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RTPServerMainView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="RTPServer_Trial.RTPServerMainView.checkPrintHeaderStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RTPServerMainView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="RTPServer_Trial.RTPServerMainView.changeFrameNumberTextBox" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RTPServerMainView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAACByRRAAAACAgAACUAACQoAAAAAEBBEAAEA=</HashCode>
+      <FileName>RTPServerMainView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTPServer_Trial.RTSPClient">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAgAAACAAAAkAAAAQAAAgEIQACBEAAAAIIAA=</HashCode>
+      <FileName>ServerController\RTSPClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTPServer_Trial.StreamingServer">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="RTPServer_Trial.StreamingServer.removeClientFromServer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServerController\StreamingServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAABAIEAAAEAAAAAAAIAAAQEBgAAAAAQ=</HashCode>
+      <FileName>ServerController\StreamingServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

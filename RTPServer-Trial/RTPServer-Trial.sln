@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTPServer-Trial", "RTPServer-Trial.csproj", "{182AC6C4-FD55-4D56-AE1C-5BCABF95E958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTPClient-Trial", "..\RTPClient-Trial\RTPClient-Trial.csproj", "{06A93306-6B74-4FEA-B2CC-86A2FAD238A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnEditableRichTextBox", "..\UnEditableRichTextBox\UnEditableRichTextBox.csproj", "{B246B78B-E746-4F6D-A49D-E9C49DCDA0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlayer", "..\VideoPlayer\VideoPlayer.csproj", "{8AABD895-A91C-4F9B-9DA3-3D60859B2D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{182AC6C4-FD55-4D56-AE1C-5BCABF95E958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182AC6C4-FD55-4D56-AE1C-5BCABF95E958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182AC6C4-FD55-4D56-AE1C-5BCABF95E958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182AC6C4-FD55-4D56-AE1C-5BCABF95E958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A93306-6B74-4FEA-B2CC-86A2FAD238A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A93306-6B74-4FEA-B2CC-86A2FAD238A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A93306-6B74-4FEA-B2CC-86A2FAD238A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A93306-6B74-4FEA-B2CC-86A2FAD238A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B246B78B-E746-4F6D-A49D-E9C49DCDA0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B246B78B-E746-4F6D-A49D-E9C49DCDA0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B246B78B-E746-4F6D-A49D-E9C49DCDA0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B246B78B-E746-4F6D-A49D-E9C49DCDA0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AABD895-A91C-4F9B-9DA3-3D60859B2D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AABD895-A91C-4F9B-9DA3-3D60859B2D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AABD895-A91C-4F9B-9DA3-3D60859B2D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AABD895-A91C-4F9B-9DA3-3D60859B2D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
